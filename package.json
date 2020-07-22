@@ -1,0 +1,25 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "app for tracking a company's employees",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulcmd/Employee-Tracker.git"
+  },
+  "author": "Paul Wachira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulcmd/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/paulcmd/Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.1.0",
+    "mysql": "^2.18.1"
+  }
+}
